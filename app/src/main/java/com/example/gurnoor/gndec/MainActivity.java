@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
             WebViewClient client = new WebViewClient();
 
-
+            webView.getSettings().setJavaScriptEnabled(true);
             webView.setWebViewClient(client);
             webView.loadUrl("http://gndec.ac.in/");
         }
